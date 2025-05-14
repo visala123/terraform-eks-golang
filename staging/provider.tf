@@ -16,7 +16,7 @@ terraform {
   }
   backend "s3" {
     bucket = "terraform-backend-remote-vpc-github-actions"
-    key    = "golang\terraform.tfstate"
+    key    = "CICD\terraform.tfstate"
     region = "us-east-1"
   }
 }
